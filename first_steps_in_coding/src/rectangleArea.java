@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class rectangleArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = Integer.parseInt(scanner.nextLine());
-        int b = Integer.parseInt(scanner.nextLine());
-        int area = a * b;
-        System.out.println(area);
+        System.out.println(Integer.parseInt(scanner.nextLine()) * Integer.parseInt(scanner.nextLine()));
     }
 }

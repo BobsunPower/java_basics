@@ -3,11 +3,7 @@ import java.util.Scanner;
 public class petShop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int dogs = Integer.parseInt(scanner.nextLine());
-        int cats = Integer.parseInt((scanner.nextLine()));
-        double dogFood = 2.50;
-        double catFood = 4;
-        double total = (dogs * dogFood) + (cats * catFood);
+        double total = (Integer.parseInt(scanner.nextLine()) * 2.5) + (Integer.parseInt((scanner.nextLine())) * 4);
         System.out.printf("%.2f lv.", total);
     }
 }

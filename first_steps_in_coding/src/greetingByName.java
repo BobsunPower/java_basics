@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class greetingByName {
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         Scanner scan = new Scanner(System.in);
-        String name = scan.nextLine();
-        System.out.println("Hello, " + name + "!");
+        System.out.println("Hello, " + scan.nextLine() + "!");
     }
 }

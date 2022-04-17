@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class inchesToCentimeters {
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
-        double input = Double.parseDouble(scanner.nextLine());
-        System.out.println(input * 2.54);
+        System.out.println(Double.parseDouble(scanner.nextLine()) * 2.54);
     }
 }

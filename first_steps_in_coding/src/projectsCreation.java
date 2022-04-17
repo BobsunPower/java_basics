@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class projectsCreation {
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
         String architectName = scanner.nextLine();
         int projects = Integer.parseInt(scanner.nextLine());
