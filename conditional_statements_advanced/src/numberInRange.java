@@ -1,0 +1,2 @@
+public class numberInRange {
+}
