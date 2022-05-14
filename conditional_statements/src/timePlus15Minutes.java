@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class timePlus15Minutes {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int hours = Integer.parseInt(scanner.nextLine());
         int minutes = Integer.parseInt(scanner.nextLine()) + 15;

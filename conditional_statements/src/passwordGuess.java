@@ -2,7 +2,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class passwordGuess {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String password = scanner.nextLine();
         if (Objects.equals(password, "s3cr3t!P@ssw0rd")) {

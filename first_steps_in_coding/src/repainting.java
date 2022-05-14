@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class repainting {
-    public static void main(String[] arg){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         double nylonPrice = 1.5;
         double paintPrice = 14.5;

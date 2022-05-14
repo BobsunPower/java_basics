@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class toyShop {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double holiday = Double.parseDouble(scan.nextLine());
         int qtyPuzzle = Integer.parseInt(scan.nextLine());

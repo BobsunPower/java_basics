@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class speedInfo {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double speed = Double.parseDouble(scanner.nextLine());
         if (speed <= 10) {

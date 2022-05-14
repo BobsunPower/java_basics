@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Arrays;
 
 public class tradeCommissions {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String city = scanner.nextLine();
         double sale = Double.parseDouble(scanner.nextLine());

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class depositCalculator {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double deposit = Double.parseDouble(scanner.nextLine());
         int term = Integer.parseInt(scanner.nextLine());

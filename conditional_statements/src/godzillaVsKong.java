@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class godzillaVsKong {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double budget = Double.parseDouble(scan.nextLine());
         int people = Integer.parseInt(scan.nextLine());

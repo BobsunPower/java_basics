@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class worldSwimmingRecord {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double recordSeconds = Double.parseDouble(scanner.nextLine());
         double distanceMeters = Double.parseDouble(scanner.nextLine());

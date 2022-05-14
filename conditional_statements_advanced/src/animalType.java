@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class animalType {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String animal = scanner.nextLine();
         String specie;

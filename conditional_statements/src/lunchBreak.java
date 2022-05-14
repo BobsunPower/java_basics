@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class lunchBreak {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String show = scanner.nextLine();
         int episode = Integer.parseInt(scanner.nextLine());

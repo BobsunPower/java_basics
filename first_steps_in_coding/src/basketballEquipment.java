@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class basketballEquipment {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int subscription = Integer.parseInt(scanner.nextLine());
         double sneakers = subscription * 0.6;

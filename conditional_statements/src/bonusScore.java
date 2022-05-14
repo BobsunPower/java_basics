@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class bonusScore {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = Integer.parseInt(scanner.nextLine());
         double bonus;

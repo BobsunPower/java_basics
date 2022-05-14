@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class areaOfFigures {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String figure = scanner.nextLine();
         double area = switch (figure) {
