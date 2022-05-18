@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/conditional_statements/conditional_statements.iml" filepath="$PROJECT_DIR$/conditional_statements/conditional_statements.iml" />
       <module fileurl="file://$PROJECT_DIR$/conditional_statements_advanced/conditional_statements_advanced.iml" filepath="$PROJECT_DIR$/conditional_statements_advanced/conditional_statements_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/first_steps_in_coding/first_steps_in_coding.iml" filepath="$PROJECT_DIR$/first_steps_in_coding/first_steps_in_coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/for_loop/for_loop.iml" filepath="$PROJECT_DIR$/for_loop/for_loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
     </modules>
   </component>
