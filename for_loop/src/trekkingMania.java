@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class trekkingMania {
     public static DecimalFormat df = new DecimalFormat("0.00");
-    public static String percentFormat(double vlu) => df.format(vlu) + "%";
+    public static String percentFormat = (double vlu)-> df.format(vlu) + "%";
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double crews = Integer.parseInt(scanner.nextLine());
