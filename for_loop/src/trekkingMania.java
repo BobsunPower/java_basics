@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class trekkingMania {
@@ -15,12 +17,12 @@ public class trekkingMania {
             else if (crew <= 12) {montBlanc += crew;}
             else if (crew <= 25) {kilimanjaro += crew;}
             else if (crew <= 40) {k2 += crew;} else {everest += crew;}}
-        System.out.printf("""
-                %.2f
-                %.2f
-                %.2f
-                %.2f
-                %.2f
-                """, musala / climbers * 100, montBlanc / climbers * 100, kilimanjaro / climbers * 100, k2 / climbers * 100, everest / climbers * 100);
+        List<String> lst= new ArrayList<>();
+        lst.add(Double.toString(musala / climbers * 100));
+        lst.add(Double.toString(montBlanc / climbers * 100));
+        lst.add(Double.toString(kilimanjaro / climbers * 100));
+        lst.add(Double.toString(k2 / climbers * 100));
+        lst.add(Double.toString(everest / climbers * 100));
+        lst.forEach(System.out::println);
     }
 }
