@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/first_steps_in_coding/first_steps_in_coding.iml" filepath="$PROJECT_DIR$/first_steps_in_coding/first_steps_in_coding.iml" />
       <module fileurl="file://$PROJECT_DIR$/for_loop/for_loop.iml" filepath="$PROJECT_DIR$/for_loop/for_loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/while_loop/while_loop.iml" filepath="$PROJECT_DIR$/while_loop/while_loop.iml" />
     </modules>
   </component>
 </project>
